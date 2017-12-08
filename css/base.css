@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:"微软雅黑","宋体",dans-serif;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a{
+	text-decoration:none;
+}
+border{
+	background:#fff;
+}
+img{
+	border:0;
+}
+textarea{
+	resize: none;
+}

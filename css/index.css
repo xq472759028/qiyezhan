@@ -1,0 +1,432 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-25 18:29:57
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-02 01:34:51
+*/
+@import url('base.css');
+
+/* 首航开始 */
+
+header{
+	width: 100%;
+	height: 100px;
+	/* background: yellowgreen; */
+	border-top: 4px solid #cc0000;
+	border-bottom: 5px solid #dfdfdf;
+}
+.header-box{
+	width: 1100px;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+}
+.header-logo{
+    width: 261px;
+    height: 90px;
+    float: left;
+    margin-top: 5px;
+    background: url(../img/logo.png) no-repeat;
+}
+.header-right{
+	width: 810px;
+    margin-top: 10px;
+    height: 80px;
+    float: right;
+    padding-top: 5px;
+    border-top: 1px solid #ececec;
+    /* background: blue; */
+}
+.header-right ul li{
+	height: 56px;
+    text-align: center;
+    margin-top: 10px;
+    width: 112px;
+    border-right: 1px solid #ececec;
+    float: left;
+    /* background: yellow; */
+   	display: flex;
+   	flex-direction: column;
+   	position: relative;
+}
+.header-right ul li:last-child{
+	border-right: 0;
+	width: 130px;
+}
+.header-wenzi{
+	color: #E40404;
+	font-size: 14px;
+	text-align: center;
+	line-height:20px; 
+	margin-top: 10px;
+}
+.header-wenzi1{
+	color: #999;
+	font-size: 8px;
+	text-align: center;
+	line-height:20px; 
+}
+.header-zhezhao{
+	height: 56px;
+    width: 100%;
+    background: #E40404;
+    position: absolute;
+    opacity: 0;
+    /* overflow: hidden; */
+    /* transition: 0.5s; */
+}
+.header-wenzi2{
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	line-height:20px; 
+	margin-top: 10px;
+	/* position: absolute;
+	bottom: -30px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto; */
+	
+}
+.header-wenzi3{
+	color: #fff;
+	font-size: 12px;
+	line-height:20px;
+	/* position: absolute;
+	bottom: -40px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto; */
+	
+}
+/* .header-zhezhao:hover .header-wenzi3{
+	transform: translateY(-45PX);
+
+}
+.header-zhezhao:hover .header-wenzi2{
+	transform: translateY(-55PX);
+} */
+.header-zhezhao:hover{
+	opacity: 1;
+	/* transition: 3s; */
+	
+	
+
+}
+.header-right ul li:first-child .header-zhezhao{
+	opacity: 1;
+}
+/* banner开始 */
+.swiper-container{
+	width: 100%;
+	height: 378px;
+/* 	background: yellow; */
+	position: relative;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 373px;
+	/* background: yellowgreen; */
+}
+.swiper-slide{
+	width: 100%;
+	height: 373px;
+	position: absolute;
+}
+.swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.swiper-button-next{
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	background: red;
+	background: rgba(230,163,160, 1);
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: 6px;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*.swiper-button-next:hover{*/
+	/*background: #E40404;*/
+/*}*/
+.swiper-button-prev{
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	background: red;
+	background: rgba(230,163,160, 1);
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	right: 6px;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*.swiper-button-prev:hover{*/
+	/*background: #E40404;*/
+/*}*/
+.swiper-bottom{
+	width: 100%;
+	height: 5px;
+}
+.swiper-bottom img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* banner结束 */
+/* 主体开始 */
+.main{
+	width: 100%;
+	height: 195px;
+	/* background: yellow; */
+}
+.main-box{
+	width: 1100px;
+	height: 165px;
+	margin: 0 auto;
+	padding: 15px 0;
+	/* background: pink; */
+}
+.main-left{
+	width: 400px;
+    height: 165px;
+    float: left;
+   /*  padding-right: 11px; */
+    margin-right: 15px;
+    /* background: blue; */
+}
+.main-left-top{
+	padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../img/10.jpg) left center no-repeat;
+    border-bottom: 1px solid #CCC;
+    font-size: 16px;
+    color: #E40404;
+    font-weight: bold;
+}
+.main-left-top-word{
+	color: #333;
+}
+.main-left-top-word1{
+	color: #CCC;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.main-left-top-word3{
+	color: #CCC;
+    display: block;
+    width: 60px;
+    height: 30px;
+    float: right;
+ }
+ .main-left-bottom{
+ 	width: 100%;
+ 	height: 110px;
+ 	padding: 10px 0;
+ 	/* background: red; */
+ }
+ .main-left-left{
+ 	width: 175px;
+    height: 107px;
+    float: left; 
+    position: relative;
+   /*  background: yellowgreen; */
+ }
+ .main-left-box{
+ 	width: 175px;
+    height: 107px;
+    overflow: hidden;
+ }
+ .main-left-box a img{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .main-left-fang{
+ 	width: 60px;
+ 	height: 15px;
+ 	background: yellowgreen;
+ 	position: absolute;
+ 	right: 0;
+ 	bottom: 0;
+ }
+ .main-left-fang li{
+ 	float: left;
+ 	width: 15px;
+ 	height: 15px;
+ 	line-height: 15px;
+ 	font-size: 12px;
+ 	text-align: center;
+ 	background: #BFC8D9;
+ 	color: #FFF;
+ 	cursor: pointer;
+ }
+ .main-left-fang li:hover{
+ 	background: #fff;
+ 	color:#BFC8D9 ;
+ }
+ .bg{
+	 background: red;
+	 color: #fff;
+ }
+ .main-left-right{
+ 	width: 210px;
+    height: 107px;
+    margin-left: 10px;
+    float: left;
+    /* background: yellowgreen; */
+ }
+ .main-left-right ul li{
+ 	height: 58px;
+    float: left;
+    width: 100%;
+    /* background: pink; */
+ }
+ .main-left-right-word{
+ 	background: url(../img/15.jpg) left center no-repeat;
+ 	height: 22px;
+    line-height: 22px;
+    padding-left: 10px;
+    border-bottom: 1px dashed #CCC;
+    font-size: 14px;
+ }
+ .main-left-right-word a{
+ 	color: #111;
+ }
+ .main-left-right-word1{
+ 	line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+ }
+ .main-center{
+ 	width: 400px;
+    height: 165px;
+    float: left;
+    padding-right: 11px;
+    margin-right: 15px;
+    background: url(../img/16.jpg) right top no-repeat;
+    /* background: yellowgreen; */
+ }
+ .main-center-bottom{
+ 	width: 100%;
+    height: 110px;
+    padding: 10px 0px;
+    /* background: red; */
+ }
+ .main-center-box{
+ 	width: 90px;
+    height: 109px;
+    float: left;
+    border: 2px solid #F1F1F1;
+    margin-right: 5px;
+    overflow: hidden;
+    transition: all 0.5s;
+ }
+ .main-center-box a img:hover{
+	transform: scale(1.1);
+}
+.main-right{
+	width: 235px;
+    height: 155px;
+    border: 3px solid #D1D5D7;
+    float: left;
+}
+/* 主体结束 */
+/* 底部开始 */
+.footer{
+	width: 100%;
+    border-top: 1px solid #F1F1F1;
+    height: 100px;
+    background: #ECECEC;
+}
+.footer-top{
+	width: 1100px;
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+    margin: 0 auto;
+   /*  background: yellowgreen; */
+}
+.footer-t-left{
+	width: 190px;
+	height: 11px;
+	/* background: pink; */
+	margin-top: 19px;
+	float: left;
+}
+.footer-t-left li{
+	font-size: 12px;
+	line-height: 11px;
+	float: left;
+	padding: 0 5px;
+	border-right: 1px solid #d8ddd8;
+}
+.footer-t-left li:first-child{
+	padding-left: 0;
+}
+.footer-t-left li:last-child{
+	border-right: 0;
+}
+.footer-t-left li a{
+	color: #111;
+}
+.footer-right{
+	width: 140px;
+	height: 32px;
+	margin-top: 10px;
+	/* background: pink; */
+	float: right;
+}
+.footer-right-word{
+	font-size: 10px;
+	color: #111;
+	line-height: 10px;
+	text-align: center;
+	padding-top: 2px;
+}
+.footer-right-word1{
+	font-size: 14px;
+	color: #111;
+	line-height: 14px;
+	text-align: center;
+	padding-top: 5px;
+}
+.footer-bottom{
+	width: 100%;
+	height: 18px;
+    padding: 10px 0px;
+    background: #ECECEC;
+    color: #666;
+}
+.footer-bottom-box{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer-bottom-word{
+	font-size: 12px;
+	color: #111;
+	float: left;
+}
+.footer-bottom-word1{
+	width: 320px;
+    float: right;
+    font-size: 12px;
+}
+.footer-bottom-word1 a{
+	color: #111;
+}
+/* 底部结束 */
